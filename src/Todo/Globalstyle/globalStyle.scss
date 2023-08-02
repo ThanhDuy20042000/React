@@ -1,0 +1,18 @@
+:root {
+  //default lauout
+  --max-width-container: 1250px;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 0.5em;
+  padding: 6px 1em;
+  border: unset;
+  &.primari {
+      background-color: rgba(0, 0, 255, 0.164);
+      color: blue;
+  } 
+  &:hover {
+      opacity: 0.5;
+  }
+}
