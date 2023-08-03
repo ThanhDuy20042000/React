@@ -1,6 +1,7 @@
 import classNames from "classnames/bind";
 import style from "./Header.module.scss";
 import images from "../../../assets";
+import { useState } from "react";  
 
 const cn = classNames.bind(style)
 
