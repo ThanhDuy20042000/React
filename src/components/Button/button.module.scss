@@ -1,0 +1,28 @@
+.wrapper {
+  border-radius: 0.4rem;
+  cursor: pointer;
+  padding: 0.5rem 1.6rem;
+  border: 1px solid transparent;
+  background: unset;
+  color: unset;
+  text-decoration: unset;
+
+  &.primari {
+    background: var(--color-default);
+    color: var(--white);
+  }
+
+  &.outline {
+    background: var(--white);
+    border-color: var(--color-default);
+    color: var(--color-default);
+  }
+
+  &.buttonDefault {
+    padding: 0;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

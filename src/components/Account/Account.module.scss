@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  gap: 0.5em;
+  cursor: pointer;
+  padding: 0.4em;
+
+  +.wrapper {
+    margin-top: 0.4rem;
+  }
+  &:hover {
+    background: #dddddd30;
+    border-radius: 0.5em;
+  }
+}
+
+.info {
+  color: var(--color-text-gray);
+  font-weight: 400;
+  margin: 0;
+}
+
+.avatar {
+  border-radius: 5rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.nick-name,
+.name {
+  margin: 0;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tiker {
+  width: 1rem;
+}

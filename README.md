@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+install 
+Tippy ==> tooltip, popover, dropdown, and menu solution for the web
+*** `npm i @tippyjs/react`
+Css ClassName ==> css selector
+*** `npm i ClassName`

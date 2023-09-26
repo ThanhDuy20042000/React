@@ -1,0 +1,48 @@
+@import '../../../style/style.module.scss';
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5em;
+  min-width: 16em;
+  .font-size-icon {
+    font-size: x-large;
+    width: 1em;
+    text-align: center;
+  }
+}
+
+.wrap-menu-button {
+  @extend .d-flex;
+  width: 100%;
+  border-radius: 0.5em;
+  &:hover {
+    background: #dddddd30;
+  }
+}
+
+.button-icon {
+  @extend .d-flex;
+  justify-content: space-between;
+  .wrap-button-icon {
+    min-width: 2em;
+    display: flex;
+  }
+}
+
+.wrap-header {
+  @extend .d-flex;
+  width: 100%;
+  padding: 0.8em 0.6em;
+  cursor: pointer;
+  h4 {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    font-weight: 500;
+  }
+  &:hover {
+    @extend .wrap-menu-button;
+  }
+}

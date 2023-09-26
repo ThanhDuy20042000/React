@@ -8,16 +8,6 @@ import { Fragment } from 'react';
 export default function App() {
   return (
     <div className="App">
-      {/* <nav>
-        <ul>
-          <li>
-            <Link to='/'>Home</Link>
-          </li>
-          <li>
-            <Link to='/following'>Following</Link>
-          </li>
-        </ul>
-      </nav> */}
       <Routes>
         {publicRouter.map((router, index) => {
           const Page = router.component

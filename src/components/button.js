@@ -1,6 +1,8 @@
 import GlobalStyles from "../Todo/Globalstyle"
 import style from "../Todo/Style/style"
 import clsx from "clsx"
+ 
+// Dùng clsx
 
 function Button({ primari }) {
   const classes = clsx(style.btn, {
